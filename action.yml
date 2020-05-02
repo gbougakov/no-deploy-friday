@@ -1,0 +1,10 @@
+name: 'No Deploy Friday'
+description: 'Greet someone and record the time'
+inputs:
+  timezone:
+    description: 'Timezone'
+    required: false
+    default: 'UTC'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

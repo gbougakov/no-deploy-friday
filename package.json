@@ -1,0 +1,13 @@
+{
+  "name": "no-deploy-friday",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gbougakov/no-deploy-friday.git",
+  "author": "George Bougakov <githubinq@bygeorgenet.me>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^2.1.1",
+    "moment-timezone": "^0.5.28"
+  }
+}
