@@ -1,5 +1,5 @@
 name: 'No Deploy Friday'
-description: 'Greet someone and record the time'
+description: 'This GitHub Action will prevent you from deploying on Friday after 5pm'
 inputs:
   timezone:
     description: 'Timezone'
@@ -8,3 +8,6 @@ inputs:
 runs:
   using: 'node12'
   main: 'dist/index.js'
+branding:
+  icon: 'clock'
+  color: 'red'
