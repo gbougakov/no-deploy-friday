@@ -1,4 +1,4 @@
-# No Deploy Friday
+# [No Deploy Friday](https://nodeployfriday.bygeorgenet.me)
 
 This GitHub Action will prevent you from deploying on Friday after 5pm.
 
